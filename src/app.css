@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+:root {
+	--text-color: theme('colors.neutral.300');
+}
+
+body {
+	color: var(--text-color);
+	background-color: theme('colors.neutral.900');
+	font-family: 'Inter Variable', sans-serif;
+	font-weight: 300;
+}
